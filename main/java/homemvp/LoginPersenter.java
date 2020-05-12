@@ -19,7 +19,7 @@ public class LoginPersenter {
         loginMolder.getBanner(new LoginCallBack<NewsBean.DataBean.BannerListBean>() {
             @Override
             public void onSuccess(NewsBean.DataBean.BannerListBean bannerListBean) {
-               loginView.setBanner(bannerListBean.getImage_url());
+              // loginView.setBanner(bannerListBean.getImage_url());
             }
 
             @Override
@@ -32,7 +32,7 @@ public class LoginPersenter {
         loginMolder.getData(new LoginCallBack<NewsBean.DataBean.ArticleListBean>() {
             @Override
             public void onSuccess(NewsBean.DataBean.ArticleListBean articleListBean) {
-                loginView.setData(articleListBean.getColumn_name());
+              //  loginView.setData(articleListBean.getColumn_name());
             }
 
             @Override

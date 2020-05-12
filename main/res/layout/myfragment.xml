@@ -2,5 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/phone_num"
+        android:hint="请输入手机号"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+
+    <EditText
+        android:id="@+id/verified"
+        android:hint="请输入验证码"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        />
+
+
+    <Button
+        android:id="@+id/send_verfied_bug"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:text="获取验证码"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/login_but"
+            android:text="登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/login_but_zc"
+            android:text="注册"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
 
 </LinearLayout>
